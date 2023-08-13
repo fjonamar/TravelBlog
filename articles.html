@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+        <title>Articles</title>
+        <link rel="stylesheet" href="articles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="logo.png" type="image/x-icon">
+    </head>
+
+<body>
+
+  <header>
+    <a href="index.html" class="logo">
+      <img src="logo.png" width="60px" height="60px">
+    </a>
+
+    <div id="nav">
+      <a href="index.html">home</a>
+      <a href="articles.html">articles</a>
+      <a href="ContactUs.html">contact</a>
+      <a href="aboutme.html">about</a>
+      <input id="searchbox" type="text" placeholder="search">
+      <i class="fa fa-search search-icon"></i>
+      <a href="login.html">
+        <button class="btnLogin-popup">Login</button>
+      </a>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="toggleDisplay('nav')">
+        <i class="fa fa-bars"></i>
+      </a>
+      
+  </header>
+
+<section id="article">
+
+<div class="article-container">
+
+    <div class="article-box">
+
+        <div class="article-img"></div>
+        <img src="a2.jpeg" alt="foto1" height="300px" width="300px">
+    
+
+        <div class="article-text"></div>
+         <h4>the mountains</h4>
+        <p>Being in nature can help us relax and feel more connected to the world around us.The sights, sounds, and smells of the mountains can be very soothing, and being surrounded by natural beauty. </p>
+    
+           <a href="mountains.html">
+            <button id="more">Read More</button>
+        </a>
+    
+    </div>
+  
+    <div class="article-box">
+
+        <div class="article-img"></div>
+        <img src="a3.jpeg" alt="foto1" height="300px" width="300px">
+    
+
+        <div class="article-text"></div>
+         <h4>trolltunga</h4>
+        <p>Trolltunga, also known as the Troll's Tongue, is an awe-inspiring rock formation perched 700 meters (2,300 feet) above the Ringedalsvatnet Lake in the municipality of Odda, Hordaland, Norway. </p>
+    
+        <a href="trolltunga.html">
+            <button id="more">Read More</button>
+        </a>
+    </div>
+      
+
+    <div class="article-box">
+
+        <div class="article-img"></div>
+        <img src="a4.jpeg" alt="foto1" height="300px" width="300px">
+    
+
+        <div class="article-text"></div>
+         <h4>newport beach</h4>
+        <p>Beyond the radiant sun, sand and surf, discover the sophisticated charm
+            of Newport Beach, California. A place so intoxicating, one taste of the
+            perfect life will keep you coming back for more.</p>
+    
+     
+            <a href="newport.html">
+                <button id="more">Read More </button>
+            </a>
+</div>
+</section>
+
+
+<div class="footer">
+  <div id="navigation_f">
+    <a href="index.html">home</a>
+    <a href="articles.html">articles</a>
+    <a href="ContactUs.html">contact</a>
+    <a href="aboutme.html">about</a>
+
+    <input id="searchbox1" type="text" placeholder="search">
+    <i class="fa fa-search search-icon"></i>
+    <a href="login.html">
+      <button class="btnLogin-popup-footer">Login</button>
+    </a>
+  </div>
+
+  <div id="social_f">
+    <a href="https://www.youtube.com/">
+      <i class="fa fa-youtube"></i>
+    </a>
+
+    <a href="https://twitter.com/">
+      <i class="fa fa-twitter"></i>
+    </a>
+
+    <a href="https://www.instagram.com/">
+      <i class="fa fa-instagram"></i>
+    </a>
+
+    <a href="https://www.facebook.com/">
+      <i class="fa fa-facebook"></i>
+    </a>
+
+    <a href="https://telegram.org/">
+      <i class="fa fa-telegram"></i>
+    </a>
+  </div>
+  
+    <a href="javascript:void(0);" class="icon-footer" onclick="toggleDisplay('navigation_f')">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  
+    <a href="javascript:void(0);" class="icon-footer" onclick="myFunction()">
+      <i class="uil uil-bars"></i>
+    </a>
+  </div>
+
+  <a href="javascript:void(0);" class="icon-footer" onclick="toggleDisplay('navigation_f')">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+</div>
+
+
+
+<script>
+  function toggleDisplay(elementId) {
+    var x = document.getElementById(elementId);
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script> 
+
+</body>
+</html>

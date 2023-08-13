@@ -1,0 +1,169 @@
+
+      <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+            <title>Log in</title>
+            <link rel="stylesheet" href="login.css">
+            <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="icon" href="logo.png" type="image/x-icon">
+        </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">
+              <img src="logo.png" width="60px" height="60px">
+            </a>
+        
+            <div id="nav">
+              <a href="index.html">home</a>
+              <a href="articles.html">articles</a>
+              <a href="ContactUs.html">contact</a>
+              <a href="aboutme.html">about</a>
+              <input id="searchbox" type="text" placeholder="search">
+              <i class="fa fa-search search-icon"></i>
+              <a href="login.html">
+                <button class="btnLogin-popup">Login</button>
+              </a>
+            </div>
+        
+            <a href="javascript:void(0);" class="icon" onclick="toggleDisplay('nav')">
+                <i class="fa fa-bars"></i>
+              </a>
+              
+          </header>
+
+
+
+
+        <div class="wrapper">
+        <div  class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me </label>
+                    <a href="#">Forget password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? 
+                        <a href="#" class="register-link">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div  class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-user"></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="uil uil-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & conditions </label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p> Already have an account? 
+                        <a href="#" class="login-link">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+   
+    
+  <div class="footer">
+    <div id="navigation_f">
+      <a href="index.html">home</a>
+      <a href="articles.html">articles</a>
+      <a href="ContactUs.html">contact</a>
+      <a href="aboutme.html">about</a>
+  
+      <input id="searchbox1" type="text" placeholder="search">
+      <i class="fa fa-search search-icon"></i>
+      <a href="login.html">
+        <button class="btnLogin-popup-footer">Login</button>
+      </a>
+    </div>
+  
+    <div id="social_f">
+      <a href="https://www.youtube.com/">
+        <i class="fa fa-youtube"></i>
+      </a>
+  
+      <a href="https://twitter.com/">
+        <i class="fa fa-twitter"></i>
+      </a>
+  
+      <a href="https://www.instagram.com/">
+        <i class="fa fa-instagram"></i>
+      </a>
+  
+      <a href="https://www.facebook.com/">
+        <i class="fa fa-facebook"></i>
+      </a>
+  
+      <a href="https://telegram.org/">
+        <i class="fa fa-telegram"></i>
+      </a>
+    </div>
+    
+      <a href="javascript:void(0);" class="icon-footer" onclick="toggleDisplay('navigation_f')">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    
+      <a href="javascript:void(0);" class="icon-footer" onclick="myFunction()">
+        <i class="uil uil-bars"></i>
+      </a>
+    </div>
+  
+    <a href="javascript:void(0);" class="icon-footer" onclick="toggleDisplay('navigation_f')">
+        <i class="fa fa-bars"></i>
+      </a>
+      
+  </div>
+  
+
+  
+  <script>
+    function toggleDisplay(elementId) {
+      var x = document.getElementById(elementId);
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script> 
+     
+    <script src="script.js"></script>
+    </body>
+    </html>
+          
+        
